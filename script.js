@@ -1,5 +1,5 @@
 /* ============================================
-   ALIGND - Main JavaScript
+   PostureCoach - Main JavaScript
    ============================================ */
 
 // ============================================
@@ -18,7 +18,7 @@ const translations = {
         hero_title_1: "Votre coach posture",
         hero_title_2: "dans votre poche.",
         hero_subtitle: "Le correcteur de posture intelligent qui vibre quand vous vous tenez mal. App Bluetooth, cours de posture, jeux interactifs. Résultats en 21 jours.",
-        hero_cta: "Découvrir ALIGND",
+        hero_cta: "Découvrir PostureCoach",
         price_badge: "-44%",
         trust_1: "Livraison gratuite",
         trust_2: "App iOS & Android",
@@ -38,22 +38,22 @@ const translations = {
         
         // Solution
         solution_tag: "La révolution",
-        solution_title: "ALIGND : Le correcteur qui vous apprend",
+        solution_title: "PostureCoach : Le correcteur qui vous apprend",
         solution_desc: "Des capteurs intelligents détectent votre posture en temps réel. Une vibration douce vous rappelle de vous redresser. L'app suit vos progrès et vous motive.",
         feature_1: "Capteur intelligent avec vibration 5-20°",
         feature_2: "App Bluetooth iOS & Android incluse",
         feature_3: "Cours de posture professionnels",
         feature_4: "Jeux interactifs pour rester motivé",
-        solution_cta: "Je veux ALIGND",
+        solution_cta: "Je veux PostureCoach",
         placeholder_product: "Image produit porté",
         
         // How it works
         how_tag: "Comment ça marche",
         how_title: "Votre transformation en 3 étapes",
         how_1_title: "Connectez l'app",
-        how_1_desc: "Téléchargez l'app ALIGND, connectez via Bluetooth en 10 secondes.",
+        how_1_desc: "Téléchargez l'app PostureCoach, connectez via Bluetooth en 10 secondes.",
         how_2_title: "Portez & apprenez",
-        how_2_desc: "ALIGND vibre quand vous vous tenez mal. Suivez les cours de posture.",
+        how_2_desc: "PostureCoach vibre quand vous vous tenez mal. Suivez les cours de posture.",
         how_3_title: "21 jours = nouvelle posture",
         how_3_desc: "L'app suit vos progrès. En 21 jours, vous avez une posture naturellement droite.",
         
@@ -67,17 +67,17 @@ const translations = {
         
         // Reviews
         reviews_tag: "Avis clients",
-        reviews_title: "Ce qu'ils disent d'ALIGND",
+        reviews_title: "Ce qu'ils disent d'PostureCoach",
         reviews_summary: "4.8/5 basé sur 2,847 avis",
         verified: "✓ Achat vérifié",
         review_1: "\"L'app fait toute la différence ! La vibration m'a vraiment appris à me tenir droit. Après 3 semaines, je n'ai presque plus besoin de le porter.\"",
         review_2: "\"Les jeux de posture sont addictifs ! Ma fille de 12 ans l'adore aussi. On fait des concours de score en famille.\"",
-        review_3: "\"J'ai essayé les correcteurs à sangles pendant des années. ALIGND est la première solution qui marche vraiment car elle APPREND à mon corps.\"",
+        review_3: "\"J'ai essayé les correcteurs à sangles pendant des années. PostureCoach est la première solution qui marche vraiment car elle APPREND à mon corps.\"",
         review_4: "\"Produit tech vraiment bien pensé. L'app est intuitive, la vibration n'est pas gênante. Livraison un peu longue mais ça vaut le coup.\"",
         
         // Order
         order_tag: "Offre de lancement",
-        order_title: "Obtenez ALIGND Smart Coach",
+        order_title: "Obtenez PostureCoach Smart Coach",
         order_savings: "Vous économisez 50€ !",
         benefit_1: "Livraison GRATUITE",
         benefit_2: "App iOS & Android incluse",
@@ -94,9 +94,9 @@ const translations = {
         faq_tag: "FAQ",
         faq_title: "Questions fréquentes",
         faq_1_q: "Comment fonctionne la détection de posture ?",
-        faq_1_a: "ALIGND contient un capteur de mouvement haute précision. Quand vous vous penchez de plus de 5-20° (réglable), il émet une vibration douce pour vous rappeler de vous redresser.",
+        faq_1_a: "PostureCoach contient un capteur de mouvement haute précision. Quand vous vous penchez de plus de 5-20° (réglable), il émet une vibration douce pour vous rappeler de vous redresser.",
         faq_2_q: "L'app est-elle vraiment incluse ?",
-        faq_2_a: "Oui ! L'app ALIGND est 100% gratuite sur iOS et Android. Elle inclut : suivi de posture en temps réel, cours professionnels, jeux interactifs, et statistiques quotidiennes.",
+        faq_2_a: "Oui ! L'app PostureCoach est 100% gratuite sur iOS et Android. Elle inclut : suivi de posture en temps réel, cours professionnels, jeux interactifs, et statistiques quotidiennes.",
         faq_3_q: "Combien de temps tient la batterie ?",
         faq_3_a: "La batterie dure environ 7 jours en utilisation normale. La charge complète prend 1h30 via USB-C (câble inclus).",
         faq_4_q: "Y a-t-il une version pour enfants ?",
@@ -108,8 +108,8 @@ const translations = {
         
         // Final CTA
         final_title: "Prêt à transformer votre posture ?",
-        final_subtitle: "Rejoignez +50,000 personnes qui ont appris à se tenir droit avec ALIGND.",
-        final_cta: "Commander ALIGND - 69,99€",
+        final_subtitle: "Rejoignez +50,000 personnes qui ont appris à se tenir droit avec PostureCoach.",
+        final_cta: "Commander PostureCoach - 69,99€",
         
         // Footer
         footer_tagline: "Redressez votre posture. Transformez votre vie.",
@@ -131,7 +131,7 @@ const translations = {
         hero_title_1: "Your posture coach",
         hero_title_2: "in your pocket.",
         hero_subtitle: "The intelligent posture corrector that vibrates when you slouch. Bluetooth app, posture courses, interactive games. Results in 21 days.",
-        hero_cta: "Discover ALIGND",
+        hero_cta: "Discover PostureCoach",
         price_badge: "-44%",
         trust_1: "Free shipping",
         trust_2: "iOS & Android App",
@@ -151,22 +151,22 @@ const translations = {
         
         // Solution
         solution_tag: "The revolution",
-        solution_title: "ALIGND: The corrector that teaches you",
+        solution_title: "PostureCoach: The corrector that teaches you",
         solution_desc: "Smart sensors detect your posture in real-time. A gentle vibration reminds you to straighten up. The app tracks your progress and keeps you motivated.",
         feature_1: "Smart sensor with 5-20° vibration",
         feature_2: "Bluetooth iOS & Android app included",
         feature_3: "Professional posture courses",
         feature_4: "Interactive games to stay motivated",
-        solution_cta: "I want ALIGND",
+        solution_cta: "I want PostureCoach",
         placeholder_product: "Product worn image",
         
         // How it works
         how_tag: "How it works",
         how_title: "Your transformation in 3 steps",
         how_1_title: "Connect the app",
-        how_1_desc: "Download the ALIGND app, connect via Bluetooth in 10 seconds.",
+        how_1_desc: "Download the PostureCoach app, connect via Bluetooth in 10 seconds.",
         how_2_title: "Wear & learn",
-        how_2_desc: "ALIGND vibrates when you slouch. Follow the posture courses.",
+        how_2_desc: "PostureCoach vibrates when you slouch. Follow the posture courses.",
         how_3_title: "21 days = new posture",
         how_3_desc: "The app tracks your progress. In 21 days, you have naturally straight posture.",
         
@@ -180,17 +180,17 @@ const translations = {
         
         // Reviews
         reviews_tag: "Customer reviews",
-        reviews_title: "What they say about ALIGND",
+        reviews_title: "What they say about PostureCoach",
         reviews_summary: "4.8/5 based on 2,847 reviews",
         verified: "✓ Verified purchase",
         review_1: "\"The app makes all the difference! The vibration really taught me to stand straight. After 3 weeks, I barely need to wear it anymore.\"",
         review_2: "\"The posture games are addictive! My 12-year-old loves it too. We have score competitions as a family.\"",
-        review_3: "\"I tried strap correctors for years. ALIGND is the first solution that actually works because it TEACHES my body.\"",
+        review_3: "\"I tried strap correctors for years. PostureCoach is the first solution that actually works because it TEACHES my body.\"",
         review_4: "\"Really well-designed tech product. The app is intuitive, the vibration isn't annoying. Shipping a bit long but worth it.\"",
         
         // Order
         order_tag: "Launch offer",
-        order_title: "Get ALIGND Smart Coach",
+        order_title: "Get PostureCoach Smart Coach",
         order_savings: "You save $60!",
         benefit_1: "FREE Shipping",
         benefit_2: "iOS & Android App included",
@@ -207,9 +207,9 @@ const translations = {
         faq_tag: "FAQ",
         faq_title: "Frequently asked questions",
         faq_1_q: "How does posture detection work?",
-        faq_1_a: "ALIGND contains a high-precision motion sensor. When you lean more than 5-20° (adjustable), it emits a gentle vibration to remind you to straighten up.",
+        faq_1_a: "PostureCoach contains a high-precision motion sensor. When you lean more than 5-20° (adjustable), it emits a gentle vibration to remind you to straighten up.",
         faq_2_q: "Is the app really included?",
-        faq_2_a: "Yes! The ALIGND app is 100% free on iOS and Android. It includes: real-time posture tracking, professional courses, interactive games, and daily statistics.",
+        faq_2_a: "Yes! The PostureCoach app is 100% free on iOS and Android. It includes: real-time posture tracking, professional courses, interactive games, and daily statistics.",
         faq_3_q: "How long does the battery last?",
         faq_3_a: "The battery lasts about 7 days with normal use. Full charge takes 1.5 hours via USB-C (cable included).",
         faq_4_q: "Is there a version for kids?",
@@ -221,8 +221,8 @@ const translations = {
         
         // Final CTA
         final_title: "Ready to transform your posture?",
-        final_subtitle: "Join +50,000 people who learned to stand straight with ALIGND.",
-        final_cta: "Order ALIGND - $79.99",
+        final_subtitle: "Join +50,000 people who learned to stand straight with PostureCoach.",
+        final_cta: "Order PostureCoach - $79.99",
         
         // Footer
         footer_tagline: "Fix your posture. Transform your life.",
@@ -413,8 +413,8 @@ function trackCheckoutEvent(productVariant, price, currency) {
             currency: currency.toUpperCase(),
             value: price,
             items: [{
-                item_id: 'alignd-' + productVariant,
-                item_name: 'ALIGND Smart Posture Coach - ' + (versionNames[productVariant]?.[currentLang] || productVariant),
+item_id: 'posturecoach-' + productVariant,
+            item_name: 'PostureCoach Smart - ' + (versionNames[productVariant]?.[currentLang] || productVariant),
                 price: price,
                 quantity: 1
             }]
@@ -425,7 +425,7 @@ function trackCheckoutEvent(productVariant, price, currency) {
     // Meta Pixel - InitiateCheckout
     if (typeof fbq !== 'undefined') {
         fbq('track', 'InitiateCheckout', {
-            content_ids: ['alignd-' + productVariant],
+            content_ids: ['posturecoach-' + productVariant],
             content_type: 'product',
             value: price,
             currency: currency.toUpperCase()
@@ -436,7 +436,7 @@ function trackCheckoutEvent(productVariant, price, currency) {
     // TikTok Pixel - InitiateCheckout
     if (typeof ttq !== 'undefined') {
         ttq.track('InitiateCheckout', {
-            content_id: 'alignd-' + productVariant,
+            content_id: 'posturecoach-' + productVariant,
             content_type: 'product',
             value: price,
             currency: currency.toUpperCase()
@@ -534,4 +534,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // }
 });
 
-console.log('🚀 ALIGND Store loaded successfully');
+console.log('🚀 PostureCoach.co loaded successfully');

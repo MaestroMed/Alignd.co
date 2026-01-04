@@ -1,4 +1,4 @@
-# ALIGND - Smart Posture Coach | Boutique Dropshipping
+# PostureCoach - Smart Posture Coach | Boutique Dropshipping
 
 ## 📦 Produit : Hipee Intelligent Posture Corrector
 
@@ -134,7 +134,7 @@ Quand tu reçois une commande :
 **Vidéo 1 - Hook Problem/Solution (15-30 sec)**
 ```
 [0-5s] Toi devant l'ordi, dos voûté, grimace de douleur
-[5-10s] Tu mets le correcteur ALIGND
+[5-10s] Tu mets le correcteur PostureCoach
 [10-20s] Transformation : dos droit, sourire
 [20-30s] Plan sur le produit + call to action
 ```
@@ -150,7 +150,7 @@ Quand tu reçois une commande :
 **Vidéo 3 - Témoignage UGC (20-30 sec)**
 ```
 Face caméra, ton naturel :
-"Ça fait 2 semaines que j'utilise ALIGND...
+"Ça fait 2 semaines que j'utilise PostureCoach...
 Franchement, je ne pensais pas que ça marcherait...
 Mais là, mes douleurs de dos ont vraiment diminué.
 Je le porte 30 min le matin et c'est tout.
@@ -182,7 +182,7 @@ Plus de douleurs. Meilleure posture. Plus de confiance.
 👉 Commande le tien avant rupture de stock !
 ```
 
-**Headline:** Correcteur de Posture ALIGND
+**Headline:** Correcteur de Posture PostureCoach
 **Description:** -43% aujourd'hui • Livraison gratuite
 
 ---
@@ -192,9 +192,9 @@ Plus de douleurs. Meilleure posture. Plus de confiance.
 ```
 ⭐⭐⭐⭐⭐ "Je ne pensais pas que ça marcherait"
 
-+50,000 personnes ont transformé leur posture avec ALIGND.
++50,000 personnes ont transformé leur posture avec PostureCoach.
 
-"Après 3 semaines de télétravail, j'avais des douleurs insupportables. ALIGND m'a littéralement sauvée." - Marie L.
+"Après 3 semaines de télétravail, j'avais des douleurs insupportables. PostureCoach m'a littéralement sauvée." - Marie L.
 
 "Sceptique au début, convaincu après 2 semaines. Ma copine m'a fait remarquer que je me tenais mieux." - Thomas R.
 
@@ -226,7 +226,7 @@ No more pain. Better posture. More confidence.
 👉 Order yours before it sells out!
 ```
 
-**Headline:** ALIGND Posture Corrector
+**Headline:** PostureCoach Posture Corrector
 **Description:** 43% OFF today • Free shipping
 
 ---
@@ -236,9 +236,9 @@ No more pain. Better posture. More confidence.
 ```
 ⭐⭐⭐⭐⭐ "I didn't think it would work"
 
-+50,000 people have transformed their posture with ALIGND.
++50,000 people have transformed their posture with PostureCoach.
 
-"After 3 weeks of working from home, I had unbearable pain. ALIGND literally saved me." - Sarah M.
+"After 3 weeks of working from home, I had unbearable pain. PostureCoach literally saved me." - Sarah M.
 
 "Skeptical at first, convinced after 2 weeks. My girlfriend noticed I was standing taller." - Mike R.
 
