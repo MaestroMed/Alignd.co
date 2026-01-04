@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGND - Smart Posture Coach | Correcteur Intelligent</title>
+    <meta name="description" content="Le premier correcteur de posture intelligent avec capteurs et app. Vibration quand vous vous tenez mal, cours de posture, jeux interactifs. Résultats en 21 jours.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ALIGND - Correcteur de Posture Premium">
+    <meta property="og:description" content="Transformez votre posture en 14 jours.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p data-i18n="announcement">🚀 LIVRAISON OFFERTE + Garantie 30 jours satisfait ou remboursé</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">⬡</span>
+                <span class="logo-text">ALIGND</span>
+            </a>
+            <div class="nav-actions">
+                <button class="lang-toggle" onclick="toggleLanguage()" aria-label="Switch language">
+                    <span class="lang-current">FR</span>
+                </button>
+                <a href="#order" class="nav-cta" data-i18n="nav_cta">Commander</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge" data-i18n="hero_badge">✨ +50,000 dos transformés</div>
+            <h1 class="hero-title">
+                <span data-i18n="hero_title_1">Redressez votre posture.</span>
+                <span class="hero-title-gradient" data-i18n="hero_title_2">Transformez votre vie.</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+                Le correcteur de posture invisible qui corrige votre dos en 14 jours. 
+                Portez-le 30 min/jour, voyez la différence.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#order" class="btn btn-primary btn-xl">
+                    <span data-i18n="hero_cta">Commander maintenant</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+                <div class="hero-price">
+                    <span class="price-old">119,99€</span>
+                    <span class="price-new">69,99€</span>
+                    <span class="price-badge" data-i18n="price_badge">-44%</span>
+                </div>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <span class="trust-icon">✓</span>
+                    <span data-i18n="trust_1">Livraison gratuite</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">✓</span>
+                    <span data-i18n="trust_2">Garantie 30 jours</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">✓</span>
+                    <span data-i18n="trust_3">Paiement sécurisé</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="hero-image-wrapper">
+                <img src="images/hero.png" alt="ALIGND Smart Posture Corrector" class="hero-product-image" onerror="this.style.display='none'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="problem_tag">Le problème</span>
+                <h2 class="section-title" data-i18n="problem_title">80% des adultes souffrent de maux de dos</h2>
+                <p class="section-subtitle" data-i18n="problem_subtitle">
+                    Des heures devant l'écran. Une posture qui se dégrade. Des douleurs qui s'installent.
+                </p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">💻</div>
+                    <h3 data-i18n="problem_1_title">Télétravail</h3>
+                    <p data-i18n="problem_1_desc">8h+ par jour devant un écran, votre dos encaisse tout.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">😫</div>
+                    <h3 data-i18n="problem_2_title">Douleurs chroniques</h3>
+                    <p data-i18n="problem_2_desc">Cervicales, lombaires, épaules... La douleur devient quotidienne.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">😔</div>
+                    <h3 data-i18n="problem_3_title">Perte de confiance</h3>
+                    <p data-i18n="problem_3_desc">Une mauvaise posture affecte votre apparence et votre assurance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <span class="section-tag" data-i18n="solution_tag">La solution</span>
+                    <h2 class="section-title" data-i18n="solution_title">ALIGND : Votre coach posture invisible</h2>
+                    <p class="solution-description" data-i18n="solution_desc">
+                        Notre correcteur de posture utilise une technologie de tension progressive 
+                        qui entraîne vos muscles à maintenir naturellement une posture parfaite.
+                    </p>
+                    <ul class="solution-features">
+                        <li>
+                            <span class="feature-check">✓</span>
+                            <span data-i18n="feature_1">Design invisible sous les vêtements</span>
+                        </li>
+                        <li>
+                            <span class="feature-check">✓</span>
+                            <span data-i18n="feature_2">Matériaux respirants et confortables</span>
+                        </li>
+                        <li>
+                            <span class="feature-check">✓</span>
+                            <span data-i18n="feature_3">Ajustable pour toutes les morphologies</span>
+                        </li>
+                        <li>
+                            <span class="feature-check">✓</span>
+                            <span data-i18n="feature_4">Résultats visibles en 14 jours</span>
+                        </li>
+                    </ul>
+                    <a href="#order" class="btn btn-primary" data-i18n="solution_cta">Je veux corriger ma posture</a>
+                </div>
+                <div class="solution-image">
+                    <div class="solution-image-wrapper">
+                        <img src="images/product-worn.png" alt="ALIGND porté" class="solution-product-image" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="how_tag">Comment ça marche</span>
+                <h2 class="section-title" data-i18n="how_title">3 étapes vers une posture parfaite</h2>
+            </div>
+            <div class="how-grid">
+                <div class="how-card">
+                    <div class="how-number">01</div>
+                    <div class="how-icon">📦</div>
+                    <h3 data-i18n="how_1_title">Recevez ALIGND</h3>
+                    <p data-i18n="how_1_desc">Livraison gratuite chez vous en 7-12 jours ouvrés.</p>
+                </div>
+                <div class="how-card">
+                    <div class="how-number">02</div>
+                    <div class="how-icon">⏱️</div>
+                    <h3 data-i18n="how_2_title">Portez 30 min/jour</h3>
+                    <p data-i18n="how_2_desc">Ajustez, enfilez, et laissez ALIGND entraîner vos muscles.</p>
+                </div>
+                <div class="how-card">
+                    <div class="how-number">03</div>
+                    <div class="how-icon">✨</div>
+                    <h3 data-i18n="how_3_title">Transformez-vous</h3>
+                    <p data-i18n="how_3_desc">En 14 jours, votre posture devient naturellement droite.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="transformation-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="transform_tag">Résultats</span>
+                <h2 class="section-title" data-i18n="transform_title">La transformation ALIGND</h2>
+            </div>
+            <div class="transformation-showcase">
+                <div class="transformation-card">
+                    <div class="transformation-image before">
+                        <img src="images/lifestyle-man.png" alt="ALIGND porté" class="transformation-img" onerror="this.parentElement.style.display='none'">
+                        <span class="transformation-label" data-i18n="before_label">Produit porté</span>
+                    </div>
+                </div>
+                <div class="transformation-arrow">→</div>
+                <div class="transformation-card">
+                    <div class="transformation-image after">
+                        <img src="images/lifestyle-collage.png" alt="ALIGND Lifestyle" class="transformation-img" onerror="this.parentElement.style.display='none'">
+                        <span class="transformation-label after-label" data-i18n="after_label">Pour tous</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="reviews_tag">Avis clients</span>
+                <h2 class="section-title" data-i18n="reviews_title">Ce qu'ils disent d'ALIGND</h2>
+                <div class="reviews-summary">
+                    <div class="stars">★★★★★</div>
+                    <span data-i18n="reviews_summary">4.8/5 basé sur 2,847 avis</span>
+                </div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">M</div>
+                        <div class="testimonial-info">
+                            <span class="testimonial-name">Marie L.</span>
+                            <span class="testimonial-verified" data-i18n="verified">✓ Achat vérifié</span>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text" data-i18n="review_1">
+                        "Après 3 semaines de télétravail, j'avais des douleurs insupportables. 
+                        ALIGND m'a littéralement sauvée. Je le porte 1h par jour et mes douleurs ont disparu."
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">T</div>
+                        <div class="testimonial-info">
+                            <span class="testimonial-name">Thomas R.</span>
+                            <span class="testimonial-verified" data-i18n="verified">✓ Achat vérifié</span>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text" data-i18n="review_2">
+                        "Sceptique au début, convaincu après 2 semaines. Ma copine m'a fait remarquer 
+                        que je me tenais mieux. Confortable et invisible sous une chemise."
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">S</div>
+                        <div class="testimonial-info">
+                            <span class="testimonial-name">Sophie M.</span>
+                            <span class="testimonial-verified" data-i18n="verified">✓ Achat vérifié</span>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text" data-i18n="review_3">
+                        "J'ai tout essayé : kiné, ostéo, yoga... Rien ne marchait durablement. 
+                        ALIGND m'a appris à maintenir ma posture naturellement. Game changer."
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">J</div>
+                        <div class="testimonial-info">
+                            <span class="testimonial-name">Jean-Pierre D.</span>
+                            <span class="testimonial-verified" data-i18n="verified">✓ Achat vérifié</span>
+                        </div>
+                        <div class="testimonial-stars">★★★★☆</div>
+                    </div>
+                    <p class="testimonial-text" data-i18n="review_4">
+                        "Bon produit, livraison un peu longue mais ça vaut le coup. 
+                        Je le recommande à tous mes collègues de bureau."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order-section" id="order">
+        <div class="container">
+            <div class="order-wrapper">
+                <div class="order-content">
+                    <span class="section-tag" data-i18n="order_tag">Offre limitée</span>
+                    <h2 class="order-title" data-i18n="order_title">Transformez votre posture aujourd'hui</h2>
+                    
+                    <div class="order-product">
+                        <div class="order-image">
+                            <img src="images/product-black.png" alt="ALIGND Adulte Noir" class="order-product-image" onerror="this.src='images/product-order.png'">
+                        </div>
+                        <div class="order-details">
+                            <h3>ALIGND Posture Corrector</h3>
+                            <div class="order-price">
+                                <span class="order-price-old">119,99€</span>
+                                <span class="order-price-new">69,99€</span>
+                            </div>
+                            <div class="order-savings" data-i18n="order_savings">Vous économisez 50€ !</div>
+                        </div>
+                    </div>
+
+                    <div class="order-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🚚</span>
+                            <span data-i18n="benefit_1">Livraison GRATUITE</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🔒</span>
+                            <span data-i18n="benefit_2">Paiement 100% sécurisé</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">↩️</span>
+                            <span data-i18n="benefit_3">Garantie 30 jours</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📧</span>
+                            <span data-i18n="benefit_4">Support client 7j/7</span>
+                        </div>
+                    </div>
+
+                    <div class="size-selector">
+                        <label data-i18n="size_label">Choisissez votre version :</label>
+                        <div class="size-options">
+                            <button class="size-option active" data-size="adult-black">Adulte Noir</button>
+                            <button class="size-option" data-size="adult-red">Adulte Rouge</button>
+                            <button class="size-option" data-size="kid-pink">Enfant Rose</button>
+                            <button class="size-option" data-size="kid-blue">Enfant Bleu</button>
+                        </div>
+                        <div class="size-guide">
+                            <span data-i18n="size_guide">Adulte : taille unique ajustable | Enfant : 6-14 ans</span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-xl order-btn" onclick="checkout()">
+                        <span class="btn-icon">🛒</span>
+                        <span data-i18n="order_cta">Commander maintenant - 69,99€</span>
+                    </button>
+
+                    <div class="payment-methods">
+                        <img src="https://cdn.shopify.com/shopifycloud/checkout-web/assets/0169695890db3db16bfe.svg" alt="Visa" class="payment-icon">
+                        <img src="https://cdn.shopify.com/shopifycloud/checkout-web/assets/ae9ceec48b1dc489596c.svg" alt="Mastercard" class="payment-icon">
+                        <img src="https://cdn.shopify.com/shopifycloud/checkout-web/assets/f11b90c2972f3811f2d5.svg" alt="Apple Pay" class="payment-icon">
+                        <span class="payment-text" data-i18n="payment_secure">Paiement sécurisé par Stripe</span>
+                    </div>
+
+                    <div class="urgency-bar">
+                        <span class="urgency-icon">🔥</span>
+                        <span data-i18n="urgency_text">Stock limité : Plus que <strong>17</strong> unités disponibles</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="faq_tag">FAQ</span>
+                <h2 class="section-title" data-i18n="faq_title">Questions fréquentes</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span data-i18n="faq_1_q">Combien de temps dois-je le porter chaque jour ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_1_a">Nous recommandons de commencer par 30 minutes par jour et d'augmenter progressivement jusqu'à 1-2 heures. Votre corps s'adaptera et vous sentirez les résultats en 14 jours.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span data-i18n="faq_2_q">Est-ce visible sous les vêtements ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_2_a">Non ! ALIGND est conçu pour être invisible. Il se porte facilement sous une chemise, un t-shirt ou un pull sans être détecté.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span data-i18n="faq_3_q">Quelle taille choisir ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_3_a">Mesurez votre tour de poitrine. S: 60-75cm | M: 75-95cm | L: 95-110cm | XL: 110-130cm. En cas de doute, prenez la taille supérieure - ALIGND est entièrement ajustable.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span data-i18n="faq_4_q">Quels sont les délais de livraison ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_4_a">La livraison prend 7-12 jours ouvrés pour la France et l'Europe, 10-15 jours pour le reste du monde. Vous recevrez un numéro de suivi par email.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span data-i18n="faq_5_q">Comment fonctionne la garantie ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_5_a">Nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas satisfait, contactez-nous et nous vous rembourserons intégralement, sans question.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span data-i18n="faq_6_q">Est-ce adapté aux problèmes de dos existants ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_6_a">ALIGND est conçu pour améliorer la posture et peut soulager les douleurs légères. Pour des problèmes de dos sérieux, consultez un professionnel de santé avant utilisation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta-section">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2 data-i18n="final_title">Prêt à transformer votre posture ?</h2>
+                <p data-i18n="final_subtitle">Rejoignez +50,000 personnes qui ont dit adieu aux douleurs de dos.</p>
+                <a href="#order" class="btn btn-primary btn-xl">
+                    <span data-i18n="final_cta">Commander ALIGND - 69,99€</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">⬡</span>
+                        <span class="logo-text">ALIGND</span>
+                    </a>
+                    <p class="footer-tagline" data-i18n="footer_tagline">Redressez votre posture. Transformez votre vie.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="legal/cgv.html" data-i18n="footer_cgv">Conditions générales</a>
+                    <a href="legal/privacy.html" data-i18n="footer_privacy">Confidentialité</a>
+                    <a href="legal/mentions.html" data-i18n="footer_mentions">Mentions légales</a>
+                    <a href="mailto:contact@alignd.co" data-i18n="footer_contact">Contact</a>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2026 ALIGND. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
