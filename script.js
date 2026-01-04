@@ -380,7 +380,11 @@ const PAYMENT_LINKS = {
 
 function checkout() {
     const currency = currentLang === 'en' ? 'usd' : 'eur';
+    const price = currentLang === 'en' ? 79.99 : 69.99;
     const paymentLink = PAYMENT_LINKS[selectedSize]?.[currency];
+    
+    // Track InitiateCheckout event for ads platforms
+    trackCheckoutEvent(selectedSize, price, currency);
     
     if (paymentLink && !paymentLink.includes('REPLACE_WITH')) {
         // Redirect to Stripe hosted checkout (secure!)
@@ -391,11 +395,53 @@ function checkout() {
             size: selectedSize,
             sizeName: versionNames[selectedSize]?.[currentLang] || selectedSize,
             language: currentLang,
-            price: currentLang === 'en' ? 79.99 : 69.99,
+            price: price,
             currency: currency
         };
         sessionStorage.setItem('alignd_order', JSON.stringify(orderData));
         window.location.href = 'checkout.html';
+    }
+}
+
+// ============================================
+// TRACKING EVENTS (Google Analytics + Meta Pixel)
+// ============================================
+function trackCheckoutEvent(productVariant, price, currency) {
+    // Google Analytics 4 - Begin Checkout
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'begin_checkout', {
+            currency: currency.toUpperCase(),
+            value: price,
+            items: [{
+                item_id: 'alignd-' + productVariant,
+                item_name: 'ALIGND Smart Posture Coach - ' + (versionNames[productVariant]?.[currentLang] || productVariant),
+                price: price,
+                quantity: 1
+            }]
+        });
+        console.log('📊 GA4: begin_checkout tracked');
+    }
+    
+    // Meta Pixel - InitiateCheckout
+    if (typeof fbq !== 'undefined') {
+        fbq('track', 'InitiateCheckout', {
+            content_ids: ['alignd-' + productVariant],
+            content_type: 'product',
+            value: price,
+            currency: currency.toUpperCase()
+        });
+        console.log('📊 Meta Pixel: InitiateCheckout tracked');
+    }
+    
+    // TikTok Pixel - InitiateCheckout
+    if (typeof ttq !== 'undefined') {
+        ttq.track('InitiateCheckout', {
+            content_id: 'alignd-' + productVariant,
+            content_type: 'product',
+            value: price,
+            currency: currency.toUpperCase()
+        });
+        console.log('📊 TikTok Pixel: InitiateCheckout tracked');
     }
 }
 
